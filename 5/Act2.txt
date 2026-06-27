@@ -1,0 +1,17 @@
+1.[age] is from 18 to 21 inclusive
+  age >= 18 && age <= 21
+
+2.[water] is less than 1.5 also greater than 0.1
+  water < 1.5 && water > 0.1
+
+3.[year] is divisible by 4
+  year % 4 == 0 
+
+4.[speed] is not greater than 55
+  !(speed > 55)
+
+5.[y] is greater than [x] and less than [z]
+  y > x && y < z
+
+6.[w] is either equal to 6 or not greater than 3
+   w == 6 || !(w > 3) 
